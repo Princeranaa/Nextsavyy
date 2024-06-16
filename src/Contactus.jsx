@@ -12,7 +12,6 @@ function ContactForm() {
   // Handle form submission
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Process form data - for example, send it to a server
     console.log('Form submitted:', formData);
     setFormData({ email: '', phoneNumber: '' }); // Clear form data after submission
     navigate('/lastform'); // Navigate to the next page after form submission
@@ -29,7 +28,7 @@ function ContactForm() {
 
   // Handle back button click
   const handleBack = () => {
-    navigate(-1); // Navigate back to the previous page using react-router-dom
+    navigate(-1); // Navigate back to the previous page 
   };
 
   return (
