@@ -7,7 +7,7 @@ function ContactForm() {
     phoneNumber: '',
   });
 
-  const navigate = useNavigate(); // Access the navigate function from react-router-dom
+  const navigate = useNavigate(); 
 
   // Handle form submission
   const handleSubmit = (event) => {
