@@ -5,7 +5,7 @@ const Lastform = () => {
   const navigate = useNavigate();
 
   const handleExploreMore = () => {
-    navigate('/'); // Navigate back to the ContactForm page (assuming '/' is the route for ContactForm)
+    navigate('/'); // Navigate back to the ContactForm page 
   };
 
   return (
